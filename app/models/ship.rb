@@ -1,5 +1,6 @@
 class Ship 
-attr_accessor :name, :type, :booty
+	
+attr_reader :name, :type, :booty
 
 @@all = []
 
